@@ -1,0 +1,23 @@
+body
+{
+  background-image: url(../img/sfondo_legno.jpg);
+  background-size: cover;
+  padding: 30px 50px;;
+}
+
+img
+{
+  width: 150px;
+}
+
+span
+{
+  font-size: 40px;
+  color: white;
+}
+
+header
+{
+  padding-bottom: 7px;
+  border-bottom: 2px solid white;
+}
