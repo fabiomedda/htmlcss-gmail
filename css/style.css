@@ -10,14 +10,30 @@ img
   width: 150px;
 }
 
-span
+h1
 {
-  font-size: 40px;
   color: white;
+  display: inline-block;
 }
 
 header
 {
-  padding-bottom: 7px;
   border-bottom: 2px solid white;
+}
+
+nav
+{
+  margin: 20px 0;
+}
+
+h2
+{
+  color: white;
+}
+
+span
+{
+  background-color: orange;
+  border-radius: 50%;
+  padding: 11px;
 }
