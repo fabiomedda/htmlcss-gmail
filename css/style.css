@@ -5,12 +5,12 @@ body
   padding: 30px 80px;;
 }
 
-img
+header > img
 {
   width: 150px;
 }
 
-h1
+header > h1
 {
   color: white;
   display: inline-block;
@@ -26,12 +26,12 @@ nav
   margin: 20px 0;
 }
 
-h2
+nav > h2
 {
   color: white;
 }
 
-#orange
+nav > #orange
 {
   background-color: orange;
   border-radius: 50%;
@@ -42,23 +42,23 @@ main
 {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
-  padding: 10px 0;
+  padding: 13px 0;
 }
 
-.read
+main > .read
 {
   background-color: #aeaeae;
   border: 1px solid black;
 }
 
-.unread
+main > .unread
 {
   background-color: white;
   border: 1px solid black;
 }
 
 
-div
+main > div
 {
   font-size: 22px;
 }
@@ -66,4 +66,21 @@ div
 .grey
 {
   color: grey;
+}
+
+footer
+{
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+footer > em
+{
+  font-size: 15px;
+}
+
+footer > strong
+{
+  font-size: 30px;
 }
